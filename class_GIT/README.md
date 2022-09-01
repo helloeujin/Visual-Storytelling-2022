@@ -25,6 +25,16 @@
 
 # 3. Github Desktop으로 Repository로 만들기 
 1) Github Desktop에서 `+ Create a New Repository on Your Hard Drive`를 선택한다
+2) 아래와 같이 컴퓨터 내에 Repository를 생성한다 
 <kbd>
-<img width="500" alt="Screen Shot 2022-09-01 at 3 23 14 PM" src="https://user-images.githubusercontent.com/2341775/187851837-7fbbd8e3-6109-4223-a04c-ad0718881b06.png"/ >
+<img width="500" alt="Screen Shot 2022-09-01 at 3 23 32 PM" src="https://user-images.githubusercontent.com/2341775/187852217-4e6dc06a-134a-4830-aedf-5bac590431cb.png"/ >
 </kbd>
+
+<br/> 
+3) Repository 내에 `index.html` 파일을 생성한다. Github Desktop으 확인하면, 아래와 같이 그 변화가 기록이 된 것을 확인할 수 있다
+<kbd>
+<img width="500" alt="Screen Shot 2022-09-01 at 3 25 00 PM" src="https://user-images.githubusercontent.com/2341775/187852668-96d98acb-fe86-4825-ad21-372dc4e88076.png" />
+</kbd>
+<br/>
+
+
