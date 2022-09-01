@@ -1,5 +1,5 @@
 # Github basics
-<br/> 
+<br/> <br/>
 
 ## 1. Github 계정 만들기
 1) [Git](https://github.com/)에서 이메일 주소를 이용하 무료계정 만들기
@@ -8,7 +8,7 @@
 3) 아직 생성된 Repository가 없는 것을 확인할 수 있어요 
 
 
-<br/> 
+<br/> <br/>
 
 ## 2. Github Desktop 설치하기
 1) https://desktop.github.com/ 에서 본인이 Mac 혹은 Window 를 선택해서 설치한다
