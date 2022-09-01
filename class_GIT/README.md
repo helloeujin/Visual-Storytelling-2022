@@ -15,14 +15,14 @@
 <kbd>
 <img width="600" alt="Screen Shot 2022-09-01 at 3 21 25 PM" src="https://user-images.githubusercontent.com/2341775/187849820-626c230f-c6da-4a9a-9013-a7d9cee1fc6a.png" />
 </kbd>
-<br/>
+<br/><br/><br/>
 2) Github 계정을 이용해서 설치 마무리하기 
 <br/>
 <kbd>
 <img width="600" alt="Screen Shot 2022-09-01 at 3 23 03 PM" src="https://user-images.githubusercontent.com/2341775/187850245-2c99cd75-20da-4228-9b15-76900895928f.png" />
 </kbd>
 
-<br/>
+<br/><br/>
 3) Github 계정을 이용해서 설치 마무리하기 
 
 <br/> 
