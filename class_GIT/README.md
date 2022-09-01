@@ -13,12 +13,12 @@
 ## 2. Github Desktop 설치하기
 1) https://desktop.github.com/ 에서 Mac 혹은 Window 를 선택해서 설치한다
 <kbd>
-<img width="600" alt="Screen Shot 2022-09-01 at 3 21 25 PM" src="https://user-images.githubusercontent.com/2341775/187849820-626c230f-c6da-4a9a-9013-a7d9cee1fc6a.png">
+<img width="600" alt="Screen Shot 2022-09-01 at 3 21 25 PM" src="https://user-images.githubusercontent.com/2341775/187849820-626c230f-c6da-4a9a-9013-a7d9cee1fc6a.png" />
 </kbd>
 <br/>
 2) Github 계정을 이용해서 설치 마무리하기 
 <kbd>
-<img width="600" alt="Screen Shot 2022-09-01 at 3 23 03 PM" src="https://user-images.githubusercontent.com/2341775/187850245-2c99cd75-20da-4228-9b15-76900895928f.png">
+<img width="600" alt="Screen Shot 2022-09-01 at 3 23 03 PM" src="https://user-images.githubusercontent.com/2341775/187850245-2c99cd75-20da-4228-9b15-76900895928f.png" />
 </kbd>
 
 <br/>
