@@ -7,7 +7,7 @@
 
 <br/> <br/>
 
-## 2. Github Desktop 설치하기
+# 2. Github Desktop 설치하기
 1) https://desktop.github.com/ 에서 Mac 혹은 Window 를 선택해서 설치한다
 <kbd>
 <img width="500" alt="Screen Shot 2022-09-01 at 3 21 25 PM" src="https://user-images.githubusercontent.com/2341775/187849820-626c230f-c6da-4a9a-9013-a7d9cee1fc6a.png" />
@@ -23,7 +23,7 @@
 <br/> 
 <br/> 
 
-### 3. Github Desktop으로 Repository로 만들기 
+# 3. Github Desktop으로 Repository로 만들기 
 1) Github Desktop에서 `+ Create a New Repository on Your Hard Drive`를 선택한다
 <kbd>
 <img width="500" alt="Screen Shot 2022-09-01 at 3 23 14 PM" src="https://user-images.githubusercontent.com/2341775/187851837-7fbbd8e3-6109-4223-a04c-ad0718881b06.png"/ >
