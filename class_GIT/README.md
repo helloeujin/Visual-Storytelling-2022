@@ -42,7 +42,7 @@
 </kbd>
 <br/>
 <br/> 
-4. `Publish repository` 버튼을 누르면, 이 코드 변화가 원격 저장소 (remote repository)에 저장된다. 그리고 Github에서 본인의 Repository에 이 코드 변화가 기록된 것을 확인할 수 있다.
+4. <code>Publish repository</code> 버튼을 누르면, 이 코드 변화가 원격 저장소 (remote repository)에 저장된다. 그리고 Github에서 본인의 Repository에 이 코드 변화가 기록된 것을 확인할 수 있다.
 <br/> 
 <kbd>
 <img width="500" alt="Screen Shot 2022-09-01 at 3 25 24 PM" src="https://user-images.githubusercontent.com/2341775/187854041-d8d97e0a-ba21-40b2-aad1-f33daa5352d3.png" />
