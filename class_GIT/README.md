@@ -22,9 +22,10 @@
 <img width="600" alt="Screen Shot 2022-09-01 at 3 23 03 PM" src="https://user-images.githubusercontent.com/2341775/187850245-2c99cd75-20da-4228-9b15-76900895928f.png" />
 </kbd>
 
-<br/><br/>
-3) Github 계정을 이용해서 설치 마무리하기 
-
 <br/> 
-
+<br/> 
 ### 3. Github Desktop으로 Repository로 만들기 
+1) Github Desktop에서 `+ Create a New Repository on Your Hard Drive`를 선택한다
+<kbd>
+<img width="600" alt="Screen Shot 2022-09-01 at 3 23 14 PM" src="https://user-images.githubusercontent.com/2341775/187851837-7fbbd8e3-6109-4223-a04c-ad0718881b06.png"/ >
+</kbd>
