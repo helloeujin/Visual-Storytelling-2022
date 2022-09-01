@@ -43,7 +43,7 @@
 <kbd>
 <img width="500" alt="Screen Shot 2022-09-01 at 3 25 24 PM" src="https://user-images.githubusercontent.com/2341775/187854041-d8d97e0a-ba21-40b2-aad1-f33daa5352d3.png" />
 </kbd>
-<br/> 
+<br/> <br/> 
 <kbd>
 <img width="500" alt="Screen Shot 2022-09-01 at 3 25 48 PM" src="https://user-images.githubusercontent.com/2341775/187854050-0ecc0bf6-de17-4807-a355-f19e80a4e829.png" />
 </kbd>
