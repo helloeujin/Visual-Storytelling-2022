@@ -24,6 +24,7 @@
 
 <br/> 
 <br/> 
+
 ### 3. Github Desktop으로 Repository로 만들기 
 1) Github Desktop에서 `+ Create a New Repository on Your Hard Drive`를 선택한다
 <kbd>
