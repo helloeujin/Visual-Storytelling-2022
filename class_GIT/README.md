@@ -31,7 +31,7 @@
 </kbd>
 <br/> 
 <br/> 
-3) Repository 내에 `index.html` 파일을 생성한다. Github Desktop으 확인하면, 아래와 같이 그 변화가 기록이 된 것을 확인할 수 있다. 왼쪽 아래의 `Commit to main`버튼을 클릭해서 이 변화를 Github에 올린다.<br/>
+3) Repository 내에 `index.html` 파일을 생성한다. Github Desktop으 확인하면, 아래와 같이 그 변화가 기록이 된 것을 확인할 수 있다. 왼쪽 아래의 `Commit to main` 버튼을 클릭해서 이 변화를 Github에 올린다.<br/>
 
 <kbd>
 <img width="500" alt="Screen Shot 2022-09-01 at 3 25 00 PM" src="https://user-images.githubusercontent.com/2341775/187852668-96d98acb-fe86-4825-ad21-372dc4e88076.png" />
