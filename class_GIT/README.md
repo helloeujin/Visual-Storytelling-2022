@@ -31,11 +31,20 @@
 </kbd>
 <br/> 
 <br/> 
-3) Repository 내에 `index.html` 파일을 생성한다. Github Desktop에서 아래와 같이 그 변화가 기록이 된 것을 확인할 수 있다. 왼쪽 아래의 `Commit to main` 버튼을 클릭해서 이 변화를 Github에 올린다.<br/><br/> 
-
+3) Repository 내에 `index.html` 파일을 생성한다. Github Desktop에서 아래와 같이 그 변화가 기록이 된 것을 확인할 수 있다. 왼쪽 아래의 `Commit to main` 버튼을 클릭해서 이 코드 변화를 Github에 기록한다.
+<br/><br/> 
 <kbd>
 <img width="500" alt="Screen Shot 2022-09-01 at 3 25 00 PM" src="https://user-images.githubusercontent.com/2341775/187852668-96d98acb-fe86-4825-ad21-372dc4e88076.png" />
 </kbd>
 <br/>
 <br/> 
+4) `Publish repository` 버튼을 누르면, 이 코드 변화가 원격 저장소 (remote repository)에 저장된다. 그리고 Github에서 본인의 Repository에 이 코드 변화가 기록된 것을 확인하 수 있다.
+<br/> 
+<kbd>
+<img width="500" alt="Screen Shot 2022-09-01 at 3 25 24 PM" src="https://user-images.githubusercontent.com/2341775/187854041-d8d97e0a-ba21-40b2-aad1-f33daa5352d3.png" />
+</kbd>
+<br/> 
+<kbd>
+<img width="500" alt="Screen Shot 2022-09-01 at 3 25 48 PM" src="https://user-images.githubusercontent.com/2341775/187854050-0ecc0bf6-de17-4807-a355-f19e80a4e829.png" />
+</kbd>
 
