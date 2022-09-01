@@ -11,7 +11,9 @@
 1) https://desktop.github.com/ 에서 본인이 Mac 혹은 Window 를 선택해서 설치한다
 <img width="900" alt="Screen Shot 2022-09-01 at 3 21 25 PM" src="https://user-images.githubusercontent.com/2341775/187849820-626c230f-c6da-4a9a-9013-a7d9cee1fc6a.png">
 2) Github 계정을 이용해서 설치 마무리하기 
+<kbd>
 <img width="800" alt="Screen Shot 2022-09-01 at 3 23 03 PM" src="https://user-images.githubusercontent.com/2341775/187850245-2c99cd75-20da-4228-9b15-76900895928f.png">
+</kbd>
 3) Github 계정을 이용해서 설치 마무리하기 
 
 <br/> 
