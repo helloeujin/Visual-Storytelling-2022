@@ -1,7 +1,7 @@
 # HTML
 
 
-HTML(Hyper Text Markup Language)은 웹페이지에서 컨텐츠의 구조를 정의하는 마크업 언어이다. 이러한 구조는 태그에 의해서 이루어진다. 컨텐츠를 미리 정의한 태그로 감싸면, 그 컨텐츠의 속성이 정의가 된다. 즉, `<tag> contents </tag>`의 경태가 된다.
+HTML(Hyper Text Markup Language)은 웹페이지에서 컨텐츠의 구조를 정의하는 마크업 언어이다. 이러한 구조는 태그에 의해서 이루어진다. 컨텐츠를 미리 정의한 태그로 감싸면, 그 컨텐츠의 속성이 정의가 된다. 즉, `<tag> contents </tag>`의 형태가 된다.
 
 
 다음은 문단 태그인 `<p>`를 사용한 경우이다. 여기서 p는 paragraph를 뜻한다. 이 태그는 여는 태그(opening tag)인 `<p>`와 닫는 태그(closing tag)인 `</p>`로 이루어진다. 이 두 개의 태그안에 컨텐츠를 넣는다. 
@@ -48,3 +48,6 @@ HTML 태그에 다음과 같이 속성(attribute)을 부여할 수 있다.
 ```
   <tag attribute1="value1" attribute2="value2"> contents </tag>
 ```
+  
+  
+#### 1) Img
