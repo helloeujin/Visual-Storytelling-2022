@@ -34,7 +34,7 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 - `<head>`: 키워드, 페이지 설명 등의 meta data를 넣는 곳이다
 - `<title>`: 페이지의 제목으로, tab 부분에 나타난다
 - `<body>`: 페이지에 보여지는 컨텐츠를 넣는 곳이다
-- `<h1>`: 가장 큰 헤딩을 넣는 태그이다
+- `<h1>`: 가장 큰 문단 제목을 넣는 태그이다
 - `<p>`: 문단을 넣는 태그이다
 
 
@@ -43,7 +43,7 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 
 ## 주요 HTML 요소들
 
-- HTML 태그에 다음과 같이 속성(attribute)을 부여할 수 있다. 
+- HTML 태그에 다음과 같이 속성(attribute)을 부여할 수 있다. 자주 쓰이는 속성은 아래에 정리되어 있다. 
   
 ```
 <tag attribute1="value1" attribute2="value2"> contents </tag>
@@ -53,9 +53,6 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 ```
 <p> <strong>First</strong> paragraph </p>
 ```
-
-#### 1) 문단
-문단 태그에서 특정 단어를 강조하고 싶을 때, 
   
 
 #### 1) 이미지
@@ -65,4 +62,13 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 <img src="images/firefox-icon.png" alt="My test image" />
 ```
   
-#### 2) 링크
+#### 2) 문단 제목
+문단 제목은 여섯 단계로 이루어 지며 (`<h1> - <h6>`), 미리 정해진 크기 대로 페이지에 보여진다.
+```
+<h1>H1 heading</h1>
+<h2>H2heading</h2>
+<h3>H3 heading</h3>
+<h4>H4 heading</h4>
+```
+  
+  
