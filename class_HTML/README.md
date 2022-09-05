@@ -43,11 +43,11 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 
 ## 주요 HTML 요소들
 
-- HTML 태그에 다음과 같이 속성(attribute)을 부여할 수 있다. 자주 쓰이는 속성은 아래에 정리되어 있다. 
+- HTML 태그에 다음과 같 속성(attribute)을 부여할 수 있다. 자주 쓰이는 속성은 아래에 정리되어 있다. 
   
-```
+`
 <tag attribute1="value1" attribute2="value2"> contents </tag>
-```
+`
   
 - 태그 안에 다른 태그를 넣을 수 있다. 예를 들어, 문단 태그에서 특정 단어를 강조하고 싶을 때 `<strong>`로 그 단어들을 감싼다. 
 ```
@@ -65,10 +65,12 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 #### 2) 문단 제목
 문단 제목은 여섯 단계로 이루어 지며 (`<h1> - <h6>`), 미리 정해진 크기 대로 페이지에 보여진다.
 ```
-<h1>H1 heading</h1>
-<h2>H2heading</h2>
-<h3>H3 heading</h3>
-<h4>H4 heading</h4>
+<h1> H1 heading </h1>
+<h2> H2heading </h2>
+<h3> H3 heading </h3>
+<h4> H4 heading </h4>
 ```
   
+#### 3) 링크
+
   
