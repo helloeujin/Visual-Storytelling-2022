@@ -11,4 +11,23 @@ HTML(Hyper Text Markup Language)은 웹페이지에서 컨텐츠의 구조를 �
 <p> 고양이 </p>
 ```
 
+### HTML 문서의 구조
+
+HTML 페이지가 어떻게 구성되었는지 보자.
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <img src="images/firefox-icon.png" alt="My test image">
+  </body>
+</html>
+```
+
+- `<!DOCTYPE html>`: HTML document 라는 의미
+
 
