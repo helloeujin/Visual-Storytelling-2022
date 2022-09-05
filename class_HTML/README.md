@@ -73,4 +73,14 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 <a href="https://www.google.com/"> Google </a>
 ```
 
+ #### 4) 목록 
+순서 없는 목록은 `<ul>` 태그를 사용하고, 순서 있는 목록은 `<ol>`를 사용한다. 이 목록의 각 항복은 `<li>`로 나타낸다.
+
+```
+<ul>
+  <li>technologists</li>
+  <li>thinkers</li>
+  <li>builders</li>
+</ul>
+```
   
