@@ -5,6 +5,8 @@ HTML(Hyper Text Markup Language)은 웹페이지에서 컨텐츠의 구조를 �
 
 
 ### HTML 요소
+다음은 문단 태그인 `<p>`를 사용한 경우이다. 여기서 p는 paragraph를 뜻한다. 이 태그는 여는 태그(opening tag)인 `<p>`와 닫는 태그(closing tag)인 `</p>`로 이루어진다. 이 두개의 태그안에 컨텐츠를 넣는다. 
+
 ```
 <p> 고양이 </p>
 ```
