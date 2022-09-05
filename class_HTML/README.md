@@ -20,11 +20,12 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 <!DOCTYPE html>
 <html>
   <head>
-    <title>html page</title>
+    <title>Page title</title>
   </head>
   <body>
-    <h1>First Heading</h1>
-    <p>First paragraph</p>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
   </body>
 </html>
 ```
