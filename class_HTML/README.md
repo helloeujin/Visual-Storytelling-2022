@@ -12,6 +12,7 @@ HTML(Hyper Text Markup Language)은 웹페이지에서 컨텐츠의 구조를 �
 
 
 <br/>
+
 ### HTML 문서의 구조
 
 HTML 페이지가 어떻게 구성되었는지 보자.
