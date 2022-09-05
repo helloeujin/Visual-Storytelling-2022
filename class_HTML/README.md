@@ -73,7 +73,7 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 <a href="https://www.google.com/"> Google </a>
 ```
 
- #### 4) 목록 
+#### 4) 목록 
 순서 없는 목록은 `<ul>` 태그를 사용하고, 순서 있는 목록은 `<ol>`를 사용한다. 이 목록의 각 항복은 `<li>`로 나타낸다.
 
 ```
@@ -84,7 +84,23 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 </ul>
 ```
 
+#### 5) Div 
+`<div>`태그는 division의 약자로 HTML 페이지 내의 레이아웃 혹은 틀을 만들 때 사용된다.
+
+```
+<div>
+  <h1>A section of grouped elements</h1>
+  <p>Here’s some text for the section</p>
+</div>
+<div>
+  <h1>Second section of grouped elements</h1>
+  <p>Here’s some text</p>
+</div>
+```
+  
+  
 <br/>
 
 ## 참고 자료들
 - [W3Schools](https://www.w3schools.com/html/html_intro.asp)
+- [Codecademy](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements)
