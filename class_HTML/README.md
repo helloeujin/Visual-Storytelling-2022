@@ -38,7 +38,10 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 - `<p>`: 문단을 넣는 태그이다
 
 
+<img width="400" alt="Screen Shot 2022-09-05 at 9 04 07 PM" src="https://user-images.githubusercontent.com/2341775/188446826-82374f05-27a8-4a83-b862-3adb6213a826.png">
 
+  
+  
 <br/>
 
 ## 주요 HTML 요소들
