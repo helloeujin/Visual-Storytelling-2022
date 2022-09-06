@@ -12,5 +12,7 @@ CSS 파일을 따로 만드는 것이 훨씬 스타일링을 정의하고 관리
 
 
 ```
-<link rel="stylesheet" href="./resources/styles.css">
+<head>
+  <link rel="stylesheet" href="./resources/styles.css">
+</head>
 ```
