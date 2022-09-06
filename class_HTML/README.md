@@ -1,4 +1,4 @@
-## HTML 이란
+# HTML 이란
 
 
 HTML(Hyper Text Markup Language)은 웹페이지에서 컨텐츠의 구조를 정의하는 마크업 언어이다. 이러한 구조는 태그에 의해서 이루어진다. 컨텐츠를 미리 정의한 태그로 감싸면, 그 컨텐츠의 속성이 정의가 된다. 즉, `<tag> contents </tag>`의 형태가 된다.
@@ -12,7 +12,7 @@ HTML(Hyper Text Markup Language)은 웹페이지에서 컨텐츠의 구조를 �
 
 <br/>
 
-## HTML 문서의 구조
+# HTML 문서의 구조
 
 HTML 페이지가 어떻게 구성되었는지 보자.
 
@@ -45,7 +45,7 @@ HTML 페이지가 어떻게 구성되었는지 보자.
   
 <br/>
 
-## 주요 HTML 요소들
+# 주요 HTML 요소들
 
 - HTML 태그에 다음과 같은 형태로 속성(attribute)을 부여할 수 있다. `<tag attribute1="value1" attribute2="value2"> contents </tag>`. 자주 쓰이는 속성은 아래에 정리되어 있다. 
   
@@ -55,7 +55,7 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 ```
   
 
-#### 1) 이미지
+### 1) 이미지
 이미지 태그는 `<img>`로 표현되며, 대표적으로 이미지 파일의 경로를 나타내는 `src`와 이미지의 정보를 알려주는 `alt`의 속성을 가지고 있다. 이미지 태그의 경우는 다른 컨텐츠를 필요로 하지 않기 때문에 닫는 태그(closing tag)를 함께 가진다. 
   
 ```
@@ -72,7 +72,7 @@ src에 파일이 어디있는지 경로를 넣을 때, 절대 경로와 상대 �
 - 상대경로: 작업 중인 폴더를 기준으로 상대적인 위치를 가리키는 경로를 의미한다. 
 `<img src="./image.jpg">`
   
-#### 2) 문단 제목
+### 2) 문단 제목
 문단 제목은 여섯 단계로 이루어 지며 (`<h1> - <h6>`), 미리 정해진 크기 대로 페이지에 보여진다.
 ```
 <h1> H1 heading </h1>
@@ -81,13 +81,13 @@ src에 파일이 어디있는지 경로를 넣을 때, 절대 경로와 상대 �
 <h4> H4 heading </h4>
 ```
   
-#### 3) 링크
+### 3) 링크
 구글로 연결되는 링크를 만들어보자. 이는 `<a>` 태그를 사용하며, 링크 주소는 `href` 속성에 넣어주면 된다.
 ```
 <a href="https://www.google.com/"> Google </a>
 ```
 
-#### 4) 목록 
+### 4) 목록 
 순서 없는 목록은 `<ul>` 태그를 사용하고, 순서 있는 목록은 `<ol>`를 사용한다. 이 목록의 각 항복은 `<li>`로 나타낸다.
 
 ```
@@ -112,7 +112,7 @@ src에 파일이 어디있는지 경로를 넣을 때, 절대 경로와 상대 �
 </div>
 ```
 
-#### 6) IDs and Classes
+### 6) IDs and Classes
 IDs와 Classes는 HTML 요소에 부여되는 속성 중 하나로, 하나의 요소 혹은 다수의 요소를 정의하여 스타일링이나 애니메이션 등에 이용할 수 있게 한다. 
   
 - IDs는 하나의 HTML 요소를 정의할 때 사용한다. `id="video-holder"`의 형태로 되어있으며, 이렇게 정의된 ID는 다른 요소들에는 사용될 수 없다.
@@ -137,6 +137,6 @@ IDs와 Classes는 HTML 요소에 부여되는 속성 중 하나로, 하나의 �
   
 <br/>
 
-## 참고 자료들
+# 참고 자료들
 - [W3Schools](https://www.w3schools.com/html/html_intro.asp)
 - [Codecademy](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements)
