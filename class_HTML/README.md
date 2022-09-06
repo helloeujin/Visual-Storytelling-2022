@@ -103,12 +103,27 @@ HTML 페이지가 어떻게 구성되었는지 보자.
 ```
 
 #### 6) IDs and Classes
-- IDs는 하나의 요소를 정의할 때 사용한다
+IDs와 Classes는 HTML 요소에 부여되는 속성 중 하나로, 하나의 요소 혹은 다수의 요소를 정의하여 스타일링이나 애니메이션 등에 이용할 수 있게 한다. 
+  
+- IDs는 하나의 HTML 요소를 정의할 때 사용한다. `id="video-holder"`의 형태로 되어있으며, 이렇게 정의된 ID는 다른 요소들에는 사용될 수 없다.
 ```
 <div id="video-holder"> </div>
-<div id="video-holder"> </div>
+<div id="img-holder"> </div>
 ```
-
+  
+- Classes는 IDs와 달리 여러 HTML 요소들에 중복되어 사용할 수 있다. 아래에 보면 두 개의 링크는 External Link이고, 나머지는 Internal Link이다. 이때 여러개의 External Link를 묶어서 `class="external"`로 정의할 수 있다.
+```
+<p>
+    Some links are
+    <a href="../index.html" class="internal">internal</a>
+    but
+    <a href="http://newschool.edu" class="external">this link</a>
+    and
+    <a href="http://google.com" class="external">this link</a>
+    are external.
+</p>
+```
+  
   
 <br/>
 
