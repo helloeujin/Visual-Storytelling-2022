@@ -29,3 +29,10 @@ selector {
     property2: value2;
 }
 ```
+
+```
+p {
+    font-family: "Comic Sans MS";
+    border: 3px dotted green;
+}
+```
