@@ -101,7 +101,14 @@ HTML 페이지가 어떻게 구성되었는지 보자.
   <p>Here’s some text</p>
 </div>
 ```
-  
+
+#### 6) IDs and Classes
+- IDs는 하나의 요소를 정의할 때 사용한다
+```
+<div id="video-holder"> </div>
+<div id="video-holder"> </div>
+```
+
   
 <br/>
 
