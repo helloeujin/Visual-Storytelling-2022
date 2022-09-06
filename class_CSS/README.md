@@ -7,6 +7,7 @@ CSS(Cascading Style Sheets)은 HTML 컨텐츠가 어떻게 웹페이지에 보�
 ```
 
 <br />
+
 CSS 파일을 따로 만들어 관리하는 것이 훨씬 스타일링을 정의하고 관리하는데 용이하다. 현재 CSS 파일은 resources 폴더 안에 들어있고, 이 파일은 HTML 파일의 `<head>` 안에 다음과 같이 추가될 수 있다.
 
 
