@@ -53,14 +53,7 @@ p {
 
 <br />
 
-요소의 이름 뿐 아니라 `id` 혹은 `class`와 같은 속성으로도 HTML 요소를 선택할 수 있다. 
-```
-<p id="my-email" class="emails">
-    my@email.com
-</p>
-```
-
-위의 HTML 요소는 다음과 같이 CSS selector 로 정의된다.
+HTML 요소는 다음과 같이 CSS selector 로 정의된다.
 | HTML 요소 | CSS selector |
 | ------------- | ------------- |
 | `<p>` | `p`  |
@@ -68,18 +61,28 @@ p {
 | `class="emails"`  | `.emails` |
   
 
+HTML 요소는 다음과 같다.
+```
+<p id="my-email" class="emails">
+    my@email.com
+</p>
+```
+
+위의 HTML 요소는 다음고 같이 세 가지 방법으로 선택하여 스타일링이 가능하다. 
+
 ```
 p {
   color: red;
 }
 
-p {
-  color: red;
-}
-p {
+#my-email {
   color: red;
 }
 
+.emails {
+  color: red;
+}
+```
 
 
 
