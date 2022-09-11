@@ -55,6 +55,7 @@ p {
 ```
 
 <br />
+
 요소의 이름 뿐 아니라 `id` 혹은 `class`와 같은 속성으로도 HTML 요소를 선택할 수 있다. 
 ```
 <p id="my-email" class="emails">
