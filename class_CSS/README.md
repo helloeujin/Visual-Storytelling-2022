@@ -43,11 +43,7 @@ p {
 
 ## CSS Selectors
 
-`selector`는 스타일링할 HTML 요소를 CSS 파일 내에서 선택하는 것이다. 
-
-<br />
-
-HTML 요소는 다음과 같이 CSS selector 로 정의된다.
+HTML 요소는 다음과 같은 규칙으로 CSS `selector` 로 정의된다.
 | HTML 요소 | CSS selector |
 | ------------- | ------------- |
 | `<p>` | `p`  |
