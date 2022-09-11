@@ -29,13 +29,19 @@ selector {
     property2: value2;
 }
 ```
-위의 CSS Syntax에 따라 `p`의 스타일링을 정의해보자.
+
+아래는 HTML에서 스타일링할 요소인 `<p>`를 선택하고, `color`에는 `red`를 그리고 `font-weight`에는 `50px`를 부여한 것이다.
 ```
 p {
   color: red;
   font-weight: 50px;
 }
 ```
+
+
+<br />
+
+## CSS Selectors
 
 이러한 `selector`로는 HTML 요소나, `id` 혹은 `class` 같은 HTML 속성이 될 수도 있다. 아래의 HTML 문서를 살펴보자. 여기서 HTML 요소는 `<p>` 이고, 속성으로는 `id`인 `my-email`과 `class`인 `emails`가 정의되어 있다. 
 
