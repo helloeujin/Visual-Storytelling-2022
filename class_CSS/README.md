@@ -57,9 +57,9 @@ p {
 
 | HTML element | CSS selector |
 | ------------- | ------------- |
-| <p> | p  |
-| id="my-email"  | #my-email  |
-| class="emails"  | .emails |
+| `<p>` | `p`  |
+| `id="my-email"`  | `#my-email`  |
+| `class="emails"`  | `.emails` |
   
 ```
 <p id="my-email" class="emails">
