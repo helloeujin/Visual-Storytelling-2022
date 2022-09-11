@@ -53,7 +53,7 @@ HTML 요소는 다음과 같은 규칙으로 CSS `selector` 로 정의된다.
 
 HTML 요소는 다음과 같다.
 ```
-<p id="my-email" class="emails">
+<p id="my-email">
     my@email.com
 </p>
 ```
@@ -66,10 +66,6 @@ p {
 }
 
 #my-email {
-  color: red;
-}
-
-.emails {
   color: red;
 }
 ```
