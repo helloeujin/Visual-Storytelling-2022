@@ -43,12 +43,9 @@ p {
 
 ## CSS Selectors
 
-`selector`는 스타일링할 HTML 요소를 선택하는 것이다. 우선 HTML 요소의 이름을 그대로 사용할 수 있다. 예를 들어, `<h1>` 이나 `<p>` 요소를 CSS 파일에서는 다음과 같이 선택할수 있다. 
+`selector`는 스타일링할 HTML 요소를 선택하는 것이다. 우선 HTML 요소의 이름을 그대로 사용할 수 있다. 예를 들어, `<p>` 요소를 CSS 파일에서는 다음과 같이 선택할수 있다. 
 
 ```
-h1 {
-  color: red;
-}
 p {
   color: blue;
 }
@@ -56,7 +53,37 @@ p {
 
 <br />
 
-요소의 이름 뿐 아니라 `id` 혹은 `class`와 같은 속성으로도 HTML 요소를 선택할 수 있다. 
+요소의 이름 뿐 아니라 `id` 혹은 `class`와 같은 속성으로도 HTML 요소를 선택할 수 있다. 아래는 HTML 요소가 `<p>`이고, `id`가 `my-email`이며 `class`가
+
+| HTML element | CSS selector |
+| ------------- | ------------- |
+| <p> | p  |
+| id="my-email"  | #my-email  |
+| class="emails"  | .emails |
+  
+```
+<p id="my-email" class="emails">
+    my@email.com
+</p>
+```
+
+```
+p {
+  color: red;
+}
+
+p {
+  color: red;
+}
+p {
+  color: red;
+}
+
+
+
+
+
+
 ```
 <p id="my-email" class="emails">
     my@email.com
