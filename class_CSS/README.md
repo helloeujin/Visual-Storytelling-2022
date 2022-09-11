@@ -43,13 +43,7 @@ p {
 
 ## CSS Selectors
 
-`selector`는 스타일링할 HTML 요소를 선택하는 것이다. 우선 HTML 요소의 이름을 그대로 사용할 수 있다. 예를 들어, `<p>` 요소를 CSS 파일에서는 다음과 같이 선택할수 있다. 
-
-```
-p {
-  color: blue;
-}
-```
+`selector`는 스타일링할 HTML 요소를 CSS 파일 내에서 선택하는 것이다. 
 
 <br />
 
