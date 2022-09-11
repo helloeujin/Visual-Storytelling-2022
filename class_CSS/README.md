@@ -30,9 +30,13 @@ selector {
 }
 ```
 
+이러한 `selector`로는 HTML 요소가 될 수도 있고, `id` 혹은 `class` 같은 HTML 속성이 될 수도 있다. 아래의 HTML 문서를 스타일링 해보자. 여기서 HTML 요소는 `<p>` 이고, 속성으로는 `id`로 `my-email`이 정의되어 있다. 
+
 ```
-p {
-    font-family: "Comic Sans MS";
+<p id="my-email">
+    brenners@newschool.edu
+</p>
+```
+
+위의 
     border: 3px dotted green;
-}
-```
