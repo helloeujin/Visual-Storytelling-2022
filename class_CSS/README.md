@@ -74,4 +74,14 @@ p {
 
 <br />
 
-## Google Fonts
+## Fonts
+CSS에서 폰트는 `font-family`라는 속성으로 정의된다. 다음의 다섯가지 폰트가 기본적으로 제공된다. 
+
+| Generic Font Family | Examples of Font Names |
+| ------------- | ------------- |
+| Serif | <p style='font-family: "Times New Roman"'>Times New Roman</p>  |
+| `id="my-email"`  | `#my-email`  |
+| `class="emails"`  | `.emails` |
+| `class="emails"`  | `.emails` |
+| `class="emails"`  | `.emails` |
+  
