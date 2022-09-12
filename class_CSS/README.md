@@ -121,5 +121,18 @@ div {
 <br />
 
 # Width and Height
+`width`와 `height` 속성을 정의할 때, `px`과 `%`를 많이 사용한다.
+
+```
+div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+```
+여기에서 `div`의 높이는 200 pixels가 되고, 너비는 Parent element `width`의 50%가 된다는 것을 의미한다.
+
+
+
 
 
