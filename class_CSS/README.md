@@ -104,7 +104,7 @@ Id가 `my-email`인 HTML 요소의 폰트를 `Roboto`로 업데이트 해보자.
 # CSS Box Model
 다음은 CSS의 레이아웃을 보여준다. 
 
-<img width="400" alt="Screen Shot 2022-09-12 at 8 54 08 PM" src="https://user-images.githubusercontent.com/2341775/189646916-654470c1-c250-4e89-b0b1-8535c92b399f.png">
+<img width="430" alt="Screen Shot 2022-09-12 at 8 54 08 PM" src="https://user-images.githubusercontent.com/2341775/189646916-654470c1-c250-4e89-b0b1-8535c92b399f.png">
 
 <br />
 
