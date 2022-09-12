@@ -58,7 +58,7 @@ HTML 요소는 다음과 같은 규칙으로 CSS `selector` 로 정의된다.
 </p>
 ```
 
-여기서 `selector`는 `p`와 `#my-email`이 된다. 
+여기서 동일한 HTML 요소를 가르키는 `selector`는 태그 이름인 `p`와 id인 `#my-email`이 된다. 그렇다면, 이 두 개의 `selector`에 다른 값을 넣으면 어떤 결과가 나타날까?
 ```
 p {
   color: red;
@@ -68,20 +68,5 @@ p {
   color: green;
 }
 ```
-
-
-
-
-
-
-```
-<p id="my-email" class="emails">
-    my@email.com
-</p>
-
-<p id="your-email" class="emails">
-    your@email.com
-</p>
-```
-
+결론은 `green`이 된다. 그 이유는 `selector`에는 우선순위가 존재하기 때문인다. 가장 우선시 되는 것은 `id`, 그 다음은 `class`, 마지막으로 태그 이름이 된다. 
 
