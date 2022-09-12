@@ -19,7 +19,7 @@ CSS 파일을 따로 만드는 것이 훨씬 스타일링을 정의하고 관리
 
 <br />
 
-## CSS Syntax
+# CSS Syntax
 
 다음은 `xxx.css` 파일안에서 CSS가 어떠한 규칙으로 스타일링을 하는지 보자. CSS는 `selector`, 즉 스타일링할 HTML 요소를 먼저 지정한다. 그리고 `{}` 중괄호 안에 어떤 속성에 어떤 값을 부여할지 정의한다. 
 
@@ -41,7 +41,7 @@ p {
 
 <br />
 
-## CSS Selectors
+# CSS Selectors
 
 HTML 요소는 다음과 같은 규칙으로 CSS `selector` 로 정의된다.
 | | HTML 요소 | CSS selector |
@@ -100,6 +100,8 @@ Id가 `my-email`인 HTML 요소의 폰트를 `Roboto`로 업데이트 해보자.
     font-family: 'Roboto', serif;
 }
 ```
+
+# CSS Box Model
 
 
 
