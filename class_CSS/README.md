@@ -44,11 +44,11 @@ p {
 ## CSS Selectors
 
 HTML 요소는 다음과 같은 규칙으로 CSS `selector` 로 정의된다.
-| HTML 요소 | CSS selector |
-| ------------- | ------------- |
-| `<p>` | `p`  |
-| `id="my-email"`  | `#my-email`  |
-| `class="emails"`  | `.emails` |
+| | HTML 요소 | CSS selector |
+|-------------| ------------- | ------------- |
+| Tag names| `<p>` | `p`  |
+| IDs| `id="my-email"`  | `#my-email`  |
+| Classes | `class="emails"`  | `.emails` |
   
 
 다음의 HTML 요소를 스타일링 해보자.
