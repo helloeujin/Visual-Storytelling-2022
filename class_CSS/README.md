@@ -51,6 +51,8 @@ HTML 요소는 다음과 같은 규칙으로 CSS `selector` 로 정의된다.
 | Classes | `class="emails"`  | `.emails` |
   
 
+<br />
+
 다음의 HTML 요소를 스타일링 해보자.
 ```
 <p id="my-email">
