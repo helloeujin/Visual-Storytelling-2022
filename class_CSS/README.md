@@ -79,7 +79,7 @@ CSS에서 폰트는 `font-family`라는 속성으로 정의된다. 다음의 다
 
 <img width="126" alt="Screen Shot 2022-09-12 at 8 30 41 PM" src="https://user-images.githubusercontent.com/2341775/189642772-9afdb780-a80b-4b56-9d4d-77d9edacbb5a.png" />
 
-이 외에 좀 더 다양한 폰트 스타일을 사용하고 싶다면, [Google Fonts](https://fonts.google.com/)를 이용하는 방법이 있다. 링크 내에서 마음에 드는 폰트를 고른 후, `<head>` 안에 다음과 같이 링크를 포함시켜준다.
+이 외에 좀 더 다양한 폰트 스타일을 사용하고 싶다면, [Google Fonts](https://fonts.google.com/)를 이용하는 방법이 있다. 링크 내에서 마음에 드는 폰트를 고른 후, `<head>` 안에 다음과 같이 링크를 포함시켜준다. 아래의 예제에서는 `Roboto` 폰트 패밀리가 추가가 되었다.
 
 ```
 <head>
@@ -87,7 +87,12 @@ CSS에서 폰트는 `font-family`라는 속성으로 정의된다. 다음의 다
 </head>
 ```
 
-이 경우, `Roboto` 폰트 패밀리가 추가가 된 것이다. 
+ID가 `my-email`인 HTML 요소의 폰트를 `Roboto`로 업데이트 하기 위해서는 다음와 같이 폰트를 정의한다. 여기에 `Roboto` 이외에 `serif`가 추가된 것을 볼 수 있다. 이는 브라우저나 오퍼레이팅 시스템에 따라 `Roboto`가 지원이 되지 않을 경우를 대비해 다음 우선순위의 폰트를 정의한 것이다.
+```
+#head {
+    font-family: 'Roboto', serif;
+}
+```
 
 
 
