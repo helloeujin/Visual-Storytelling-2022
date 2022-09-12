@@ -146,4 +146,38 @@ div {
 
 
 
+<br />
+
+# Z-index
+
+<br />
+
+
+
+# Interaction
+
+- Hover
+
+<br />
+
+
+
+# Animation
+- Transform
+
+<br />
+
+
+# Responsive
+
+```
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+```
+
+<br />
+
+
 
