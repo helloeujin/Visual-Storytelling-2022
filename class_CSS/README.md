@@ -133,6 +133,17 @@ div {
 여기에서 `div`의 높이는 200 pixels가 되고, 너비는 Parent element `width`의 50%가 된다는 것을 의미한다.
 
 
+<br />
+
+# Position
+`position` 속성은 HTML 요소가 페이지 내에서 어떻게 위치해야하는 지를 정의한며, 다섯가지 종류가 있다.
+
+- `static`
+- `relative`
+- `fixed`
+- `absolute`
+- `sticky`
+
 
 
 
