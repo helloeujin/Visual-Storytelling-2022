@@ -79,7 +79,16 @@ CSS에서 폰트는 `font-family`라는 속성으로 정의된다. 다음의 다
 
 <img width="126" alt="Screen Shot 2022-09-12 at 8 30 41 PM" src="https://user-images.githubusercontent.com/2341775/189642772-9afdb780-a80b-4b56-9d4d-77d9edacbb5a.png" />
 
-이 외에 좀 더 다양한 폰트 스타일을 사용하고 싶다면, [Google Fonts](https://fonts.google.com/)를 이용하는 방법이 있다.
+이 외에 좀 더 다양한 폰트 스타일을 사용하고 싶다면, [Google Fonts](https://fonts.google.com/)를 이용하는 방법이 있다. 링크 내에서 마음에 드는 폰트를 고른 후, `<head>` 안에 다음과 같이 링크를 포함시켜준다.
+
+```
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+```
+
+이 경우, `Roboto` 폰트 패밀리가 추가가 된 것이다. 
+
 
 
 
