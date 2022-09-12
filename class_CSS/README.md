@@ -77,9 +77,7 @@ p {
 ## Fonts
 CSS에서 폰트는 `font-family`라는 속성으로 정의된다. 다음의 다섯가지 폰트가 기본적으로 제공된다. 
 
-- <span style="font-family: serif"> Serif </span>
-- <span style="font-family: sans-serif"> Sans-serif </span>
-- Monospace
-- Cursive
-- Fantasy 
-  
+<img width="100" alt="Screen Shot 2022-09-12 at 8 30 41 PM" src="https://user-images.githubusercontent.com/2341775/189642772-9afdb780-a80b-4b56-9d4d-77d9edacbb5a.png">
+
+
+
