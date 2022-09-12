@@ -51,24 +51,24 @@ HTML 요소는 다음과 같은 규칙으로 CSS `selector` 로 정의된다.
 | `class="emails"`  | `.emails` |
   
 
-HTML 요소는 다음과 같다.
+다음의 HTML 요소를 스타일링 해보자.
 ```
 <p id="my-email">
     my@email.com
 </p>
 ```
 
-위의 HTML 요소는 다음고 같이 세 가지 방법으로 선택하여 스타일링이 가능하다. 
-
+여기서 `selector`는 `p`와 `#my-email`이 된다. 
 ```
 p {
   color: red;
 }
 
 #my-email {
-  color: red;
+  color: green;
 }
 ```
+
 
 
 
