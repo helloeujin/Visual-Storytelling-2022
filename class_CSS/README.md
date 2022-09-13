@@ -251,10 +251,13 @@ div {
 
 # Responsive
 
+웹페이지를 모바일에서도 볼 수 있게 하려면, 스크린 사이즈에 맞게 HTML 요소들의 디자인이나 레이아웃이 변해야한다. 이를 `responsive design`이라고 한다. CSS에서는 다음와 같이 스크린 사이즈에 따른 스타일링을 가능하게 한다. 
+
 ```
 @media screen and (min-width: 480px) {
-  #leftsidebar {width: 200px; float: left;}
-  #main {margin-left: 216px;}
+  body {
+    background-color: lightgreen;
+  }
 }
 ```
 
