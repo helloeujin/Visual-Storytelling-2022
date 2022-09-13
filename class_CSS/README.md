@@ -263,5 +263,6 @@ div {
 
 <br />
 
-
-
+# 참고 자료들
+- [W3Schools](https://www.w3schools.com/css/default.asp)
+- [Codeacademy](https://www.codecademy.com/learn/learn-css)
