@@ -142,7 +142,7 @@ div {
 - `relative`: 기본 위치에 대한 상대적인 위치에 배치
 - `absolute`: Parent 요소를 기준으로 절대적인 위치에 배치, Parent 요소가 없을 때에는 `body`가 parent 요소가 된다
 - `fixed`: 웹페이지가 아닌 스크린이 보여지는 영역(viewport)을 기준으로 배치되며, 스크롤이 되어도 움직이지 않는 고정된 위치를 갖는다
-- `sticky`: Parent 요소를 기준으로 위치된다. 기본적으로는 `relative` 포지션을 가지지만 Parent 요소의 화면 배치에 따라 `fixed` 포지션이 되기도 
+<!-- - `sticky`: Parent 요소를 기준으로 위치된다. 기본적으로는 `relative` 포지션을 가지지만 Parent 요소의 화면 배치에 따라 `fixed` 포지션이 되기도  -->
 
 
 
