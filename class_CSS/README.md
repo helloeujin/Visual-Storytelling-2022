@@ -159,14 +159,14 @@ img {
 
 <br />
 
-# Inline vs Block
-
-
-<br />
-
 # Interaction
+자주 쓰이는 interaction은 mouse over이다. 이는 HTML 요소를 가르치는 `selector`뒤에 `:hover`를 붙여 정의한다.
 
-- Hover
+```
+a:hover {
+  background-color: yellow;
+}
+```
 
 <br />
 
