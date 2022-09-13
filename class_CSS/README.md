@@ -199,6 +199,8 @@ div {
 }
 ```
 
+<br />
+
 ### Animations
 CSS 만으로도 `@keyframes`를 이용하여 animation이 가능하다. 여기서 `@keyframes`는 HTML 요소 안에 `animation-name`으로 정의되고, `animation-duration`으로 시간을 정할 수 있다.
 
@@ -220,6 +222,7 @@ div {
 ```
 
 <br />
+
 다음은 좀 더 복잡한 형태의 `@keyframes`다. `%`를 이용하여, 주어진 시간안에 어떤 변화를 줄지 정의할 수 있다. 이때 `animation-duration`을 `infinate`으로 하면, animation이 계속해서 반복된다.
 
 ```
