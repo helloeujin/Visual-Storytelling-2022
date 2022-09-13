@@ -173,7 +173,17 @@ a:hover {
 
 
 # Animation
-- Transform
+### Transforms
+CSS `transform` 속성은 요소의 이동 회전, 축소 및 확대 등을 가능하게 한다.
+
+```
+div {
+  transform: translate(50px, 100px);
+  transform: rotate(20deg);
+  transform: scale(2, 3);
+  transform: scale(0.5, 0.5);
+}
+```
 
 <br />
 
