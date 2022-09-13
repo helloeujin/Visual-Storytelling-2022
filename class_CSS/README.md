@@ -139,12 +139,21 @@ div {
 `position` 속성은 HTML 요소가 페이지 내에서 어떻게 위치해야하는 지를 정의하며, 다섯가지 종류가 있다.
 
 - `static`: 기본 위치로 페이지의 흐름을 따른다
-- `relative`: 기본 위치에 대한 상대적인 위치에 배치
-- `absolute`: Parent 요소를 기준으로 절대적인 위치에 배치, Parent 요소가 없을 때에는 `body`가 parent 요소가 된다
-- `fixed`: 웹페이지가 아닌 스크린이 보여지는 영역(viewport)을 기준으로 배치되며, 스크롤이 되어도 움직이지 않는 고정된 위치를 갖는다
-- `sticky`: 스크롤 위치에 따라 `relative` 혹은 `fixed`가 된다. Parent 요소를 기준으로 위치되며, 기본적으로 `relative` 이지만 Parent 요소가 viewport에서 벗어나기 시작하면 `fixed`와 비슷하게 sticks 된다
+- `relative`: 기본 위치에 대한 상대적인 위치
+- `absolute`: Parent 요소 혹은 `body`를 기준으로 절대적인 위치
+- `fixed`: 웹페이지가 아닌 스크린이 보여지는 영역(viewport)을 기준으로 절대적인 위치, 스크롤이 되어도 움직이지 않는 고정된 위치를 갖는다
+- `sticky`: 스크롤 위치에 따라 `relative` 혹은 `fixed`가 된다. Parent 요소를 기준으로 `relative` 위치이지만 Parent 요소가 viewport에서 벗어나기 시작하면 `fixed`가 된다
 
+여기서 `absolute`와 `fixed` 같이 절대적인 위치를 하면, HTML 요소들이 겹치는 경우가 생긴다. 이때, 이 요소들의 겹치는 순서는 `z-index`로 결정할 수 있다.
 
+```
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+```
 
 <br />
 
