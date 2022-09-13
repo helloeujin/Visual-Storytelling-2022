@@ -187,6 +187,64 @@ div {
 
 <br />
 
+### Transitions
+`transition` 속성은 요소가 변화할때, 일정 시간동안 매끄럽게 변화하도록 한다. 다음의 예에서는 `width`가 변화하면 2초의 시간동안 변화하도록 정의한 것이다.
+
+```
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+```
+
+### Animations
+CSS 만으로도 `@keyframes`를 이용하여 animation이 가능하다. 여기서 `@keyframes`는 HTML 요소 안에 `animation-name`으로 정의되고, `animation-duration`으로 시간을 정할 수 있다.
+
+```
+/* The animation code */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+```
+
+<br />
+다음은 좀 더 복잡한 형태의 `@keyframes`다. `%`를 이용하여, 주어진 시간안에 어떤 변화를 줄지 정의할 수 있다. 이때 `animation-duration`을 `infinate`으로 하면, animation이 계속해서 반복된다.
+
+```
+/* The animation code */
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+```
+
+
+<br />
 
 # Responsive
 
