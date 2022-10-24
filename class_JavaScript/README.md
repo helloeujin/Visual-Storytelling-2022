@@ -3,7 +3,7 @@
 JavaScript Can Change HTML Content
 
 ```
-<p style="color: red; font-weight: 50px"> My Cat </p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
 ```
 
 <br />
