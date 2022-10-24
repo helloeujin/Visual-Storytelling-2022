@@ -243,6 +243,7 @@ div {
   background-color: red;
   animation-name: example;
   animation-duration: 4s;
+  animation-iteration-count: 2;
 }
 ```
 
