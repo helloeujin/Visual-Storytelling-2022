@@ -16,6 +16,8 @@ JavaScript 파일을 따로 만들어서 관리할 수 있다. 이 파일은 HTM
 <script src="myScript.js"></script>
 ```
 
+<br />
+
 # Variables
 
 
