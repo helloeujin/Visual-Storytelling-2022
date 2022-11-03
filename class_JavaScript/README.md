@@ -123,12 +123,22 @@ document.getElementById(아이디);
 <html>
 <body>
 
-<button onclick="document.getElementById('demo').innerHTML=Date()">지금 시간은?</button>
+<h2>JavaScript 이벤트</h2>
+<p>버튼 클릭해서 시간 보여주기</p>
+
+<button onclick="displayDate()">지금 시간은?</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
 
 <p id="demo"></p>
 
 </body>
-</html>
+</html> 
+
 ```
 
 
