@@ -73,8 +73,8 @@ document.getElementById(아이디);
 
 # HTML 속성 업데이트하기
 - `<button>` 태그에서 `onclick`으로 click 이벤트를 만든다.
-- 
-
+- `document.getElementById("myImage")`를 통해 `myImage`가 id인 요소를 선택한다.
+- 여기에 `.src`으로 속성 src를 업데이트 할 수 있다.
 
 ```
 <!DOCTYPE html>
