@@ -16,8 +16,6 @@ JavaScript 파일을 따로 만들어서 관리할 수 있다. 이 파일은 HTM
 <script src="myScript.js"></script>
 ```
 
-<br />
-
 # 선택자
 DOM 특정 요소(element) 선택하기
 
