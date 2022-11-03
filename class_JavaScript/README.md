@@ -100,8 +100,13 @@ document.getElementById(아이디);
 
 # HTML 스타일 업데이트하기
 
-- 폰트 사이즈
+- Font size
+ <br />
 `document.getElementById("demo").style.fontSize = "35px";`
+
+- Display
+ <br />
+`document.getElementById("demo").style.display = "none";`
 
 
 <br />
