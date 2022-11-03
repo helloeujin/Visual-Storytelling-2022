@@ -26,7 +26,6 @@ DOM 특정 요소(element) 선택하기
 document.getElementsByTagName(태그)[순서];
 ```
 
-<br />
 
 ### 2) 클래스
 클래스도 위의 태그와 같이 여러 요소들을 선택할 수 있다. 아래와 같이 순서를 부여해 특정 요소를 선택 가능하다.
@@ -35,7 +34,6 @@ document.getElementsByTagName(태그)[순서];
 document.getElementsByClassName(클래스)[순서];
 ```
 
-<br />
 
 ### 3) 아이디
 아이디는 유일한 값이므로 하나만 선택 가능하다.
