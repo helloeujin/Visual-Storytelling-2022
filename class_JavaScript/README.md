@@ -1,7 +1,5 @@
 # JavaScript 란
 
-> JavaScript Can Change HTML Content
-
 웹페이지를 Dynamic하게 만들고 Interaction을 넣을 수 있는 것은 JavaScript 덕분이다
 
 ```
@@ -15,6 +13,10 @@ JavaScript 파일을 따로 만들어서 관리할 수 있다. 이 파일은 HTM
 ```
 <script src="myScript.js"></script>
 ```
+
+
+<br />
+
 
 # 선택자
 DOM 특정 요소(element) 선택하기
@@ -41,6 +43,30 @@ document.getElementsByClassName(클래스)[순서];
 ```
 document.getElementById(아이디);
 ```
+
+
+
+<br />
+
+
+# HTML 내용 업데이트하기
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+</body>
+</html>
+```
+
 
 
 
