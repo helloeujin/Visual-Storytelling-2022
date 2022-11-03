@@ -101,7 +101,7 @@ document.getElementById(아이디);
 # HTML 스타일 업데이트하기
 
 - Font size: 
-`document.getElementById("demo").style.fontSize = "35px";```
+`document.getElementById("demo").style.fontSize = "35px";`
 
 
 - Display: 
