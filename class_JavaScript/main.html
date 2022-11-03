@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
+  <body>
+    <h2>HTML 속성 업데이트하기</h2>
 
-<head>
-    <title>JavaScript</title>
-</head>
+    <p>Image 태그의 속성인 `src` 업데이트해서 파일을 바꾸기</p>
 
-<body>
-    <h1>Visual Storytelling: JavaScript</h1>
-</body>
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
+      불 켜기
+    </button>
 
+    <img id="myImage" src="pic_bulboff.gif" style="width: 100px" />
+
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+      불 끄기
+    </button>
+  </body>
 </html>
