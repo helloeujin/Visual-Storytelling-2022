@@ -51,9 +51,8 @@ document.getElementById(아이디);
 
 # HTML 내용 업데이트하기
 - `<button>` 태그에서 `onclick` 함수지정을 할 수 있다
-- `document.getElementById("demo")`를 
-- `<button>` 태그에서 `onclick` 함수지정을 할 수 있다ㅌㅗㅇㅎ
-- `<button>` 태그에서 `onclick` 함수지정을 할 수 있다
+- `document.getElementById("demo")`를 통해 `demo`가 id인 요소를 선택할 수 있다
+- 여기에 `.innerHTML`으로 안의 내용을 업데이트 할  
 
 ```
 <!DOCTYPE html>
