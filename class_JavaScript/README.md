@@ -107,6 +107,33 @@ document.getElementById(아이디);
 - Display: 
 `document.getElementById("demo").style.display = "none";`
 
+<br />
+
+
+
+# 이벤트
+- `<button>` 태그에서 `onclick`으로 click 이벤트를 만든다.
+- `document.getElementById("demo")`를 통해 `demo`가 id인 요소를 선택한다.
+- 여기에 `.innerHTML`으로 내용을 업데이트 할 수 있다.
+- `Date()` 함수를 이용해서 현재 시간을 구한다.
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="document.getElementById('demo').innerHTML=Date()">지금 시간은?</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
+```
+
+
+
+
 
 <br />
 
