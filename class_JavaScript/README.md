@@ -50,7 +50,10 @@ document.getElementById(아이디);
 
 
 # HTML 내용 업데이트하기
-
+- `<button>` 태그에서 `onclick` 함수지정을 할 수 있다
+- `document.getElementById("demo")`를 
+- `<button>` 태그에서 `onclick` 함수지정을 할 수 있다ㅌㅗㅇㅎ
+- `<button>` 태그에서 `onclick` 함수지정을 할 수 있다
 
 ```
 <!DOCTYPE html>
