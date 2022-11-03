@@ -96,6 +96,12 @@ document.getElementById(아이디);
 
 ```
 
+<br />
+
+# HTML 스타일 업데이트하기
+
+- 폰트 사이즈
+`document.getElementById("demo").style.fontSize = "35px";`
 
 
 <br />
