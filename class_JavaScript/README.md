@@ -142,7 +142,38 @@ function displayDate() {
 ```
 
 
+<br />
 
+# If Else 구문
+If로 시작하는 조건문이다. `if` 뒤 괄호에 조건이 오고, 값이 조건에 맞으면 true로 if 문의 내용이 실행된다. if에 맞지 않고 `else if` 조건에 맞으면 else if 문의 내용이 실행된다. 이 외의 모든 경우에 else문의 내용이 실행된다. 
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>If Else</h2>
+
+<p>시간에 따른 인사:</p>
+
+<p id="demo"></p>
+
+<script>
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
+</body>
+</html>
+```
 
 
 <br />
