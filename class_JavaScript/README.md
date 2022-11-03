@@ -22,8 +22,11 @@ JavaScript 파일을 따로 만들어서 관리할 수 있다. 이 파일은 HTM
 DOM 특정 요소(element) 찾기
 
 ### 1) 태그
+`<p>`, `<div>`, `<h2>` 등과 같이 HTML 태그들을 선택할 수 있다. 다만 이런 태그는 같은 태그가 어려번 사용되므로 아래와 같이 순서로서 특정 태그를 선택해 줄 수 있다. 
 
-```document.getElementsByTagName(태그)[순서];```
+```
+document.getElementsByTagName(태그)[순서];
+```
 
 
 
