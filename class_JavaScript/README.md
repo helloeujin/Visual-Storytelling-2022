@@ -23,7 +23,7 @@ DOM 특정 요소(element) 찾기
 
 ### 1) 태그
 
-``document.getElementsByTagName(태그)[순서];`
+```document.getElementsByTagName(태그)[순서];```
 
 
 
