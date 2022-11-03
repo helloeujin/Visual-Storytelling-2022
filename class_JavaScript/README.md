@@ -18,7 +18,12 @@ JavaScript 파일을 따로 만들어서 관리할 수 있다. 이 파일은 HTM
 
 <br />
 
-# Variables
+# 선택자
+DOM 특정 요소(element) 찾기
+
+### 1) 태그
+
+``document.getElementsByTagName(태그)[순서];`
 
 
 
