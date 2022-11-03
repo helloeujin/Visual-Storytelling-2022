@@ -59,7 +59,7 @@ document.getElementById(아이디);
 <html>
 <body>
 
-<h2>What Can JavaScript Do?</h2>
+<h2>HTML 내용 업데이트 하기</h2>
 
 <p id="demo">JavaScript can change HTML content.</p>
 
@@ -69,6 +69,32 @@ document.getElementById(아이디);
 </html>
 ```
 
+<br />
+
+# HTML 속성 업데이트하기
+- `<button>` 태그에서 `onclick`으로 click 이벤트를 만든다.
+- 
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML 속성 업데이트하기</h2>
+
+<p>Image 태그의 속성인 `src` 업데이트해서 파일을 바꾸기</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">불 켜키</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">불 </button>
+
+</body>
+</html>
+
+```
 
 
 
