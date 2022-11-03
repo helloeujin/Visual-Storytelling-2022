@@ -100,12 +100,12 @@ document.getElementById(아이디);
 
 # HTML 스타일 업데이트하기
 
-- Font size 
-```document.getElementById("demo").style.fontSize = "35px";```
+- Font size: 
+``` document.getElementById("demo").style.fontSize = "35px";```
 
 
-- Display 
-`document.getElementById("demo").style.display = "none";`
+- Display"
+` document.getElementById("demo").style.display = "none";`
 
 
 <br />
