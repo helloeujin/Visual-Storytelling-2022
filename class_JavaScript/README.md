@@ -73,8 +73,8 @@ document.getElementById(아이디);
 
 # HTML 속성 업데이트하기
 - `<button>` 태그에서 `onclick`으로 click 이벤트를 만든다.
-- 
-
+- `document.getElementById("myImage")`를 통해 `myImage`가 id인 요소를 선택한다.
+- 여기에 `.src`으로 속성 src를 업데이트 할 수 있다.
 
 ```
 <!DOCTYPE html>
@@ -96,6 +96,84 @@ document.getElementById(아이디);
 
 ```
 
+<br />
+
+# HTML 스타일 업데이트하기
+
+- Font size: 
+`document.getElementById("demo").style.fontSize = "35px";`
+
+
+- Display: 
+`document.getElementById("demo").style.display = "none";`
+
+<br />
+
+
+
+# 이벤트
+- `<button>` 태그에서 `onclick`으로 click 이벤트를 만든다.
+- `document.getElementById("demo")`를 통해 `demo`가 id인 요소를 선택한다.
+- 여기에 `.innerHTML`으로 내용을 업데이트 할 수 있다.
+- `Date()` 함수를 이용해서 현재 시간을 구한다.
+
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript 이벤트</h2>
+<p>버튼 클릭해서 시간 보여주기</p>
+
+<button onclick="displayDate()">지금 시간은?</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html> 
+
+```
+
+
+<br />
+
+# If Else 구문
+If로 시작하는 조건문이다. `if` 뒤 괄호에 조건이 오고, 값이 조건에 맞으면 true로 if 문의 내용이 실행된다. if에 맞지 않고 `else if` 조건에 맞으면 else if 문의 내용이 실행된다. 이 외의 모든 경우에 `else` 문의 내용이 실행된다. 
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>If Else</h2>
+
+<p>시간에 따른 인사:</p>
+
+<p id="demo"></p>
+
+<script>
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
+</body>
+</html>
+```
 
 
 <br />
