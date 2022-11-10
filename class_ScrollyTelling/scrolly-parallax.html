@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ScrollMonitor Parallax</title>
+    <style type="text/css">
+      #container {
+        background-color: silver;
+        height: 3000px;
+        width: 700px;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+      }
+
+      #outside {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        width: 200px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        opacity: 0;
+      }
+
+      #speedy {
+        position: absolute;
+        top: 10px;
+        left: 100px;
+        width: 200px;
+        text-align: center;
+        background-color: white;
+      }
+      #upward {
+        position: absolute;
+        top: 1000px;
+        left: 250px;
+        width: 200px;
+        text-align: center;
+        background-color: white;
+      }
+      #custom {
+        position: absolute;
+        top: 10px;
+        left: 400px;
+        width: 200px;
+        text-align: center;
+        background-color: white;
+      }
+      pre {
+        text-align: left;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ScrollMonitor Parallax Test Page</h1>
+
+    <!-- container -->
+    <div id="container">
+      <div id="speedy">
+        <i>Speed Only</i>
+        <pre> root.add(speedyEl, 2);</pre>
+      </div>
+
+      <div id="upward">
+        <i>I go up!</i>
+        <pre>root.add(upEl, -1.5);</pre>
+      </div>
+
+      <div id="custom">
+        <i>Props and Easing</i>
+        <pre>
+  root.add(customEl, {
+    start: {
+      scale: 1
+    },
+    end: {
+      x: -480,
+      y: 1980,
+      rotate: 360,
+      scale: 3
+    },
+    easing: {
+      x: easingMethod
+    }
+  });
+          </pre
+        >
+      </div>
+    </div>
+    <!-- end of container -->
+
+    <div id="outside">
+      I live outside the scroll container, but that doesn't matter.
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollmonitor/1.0.13/scrollMonitor.js"></script>
+    <script src="./scrolly-parallax.js"></script>
+    <script>
+      /*eslint-disable */
+      var root = parallax.create(document.getElementById("container"));
+
+      root.add(document.getElementById("speedy"), 2);
+      root.add(document.getElementById("upward"), -1.5);
+
+      root.add(document.getElementById("custom"), {
+        start: {
+          scale: 1,
+        },
+        end: {
+          x: -480, // -480
+          y: 2380,
+          rotate: 360,
+          scale: 3,
+        },
+        easing: {
+          x: function (ratio) {
+            return Math.sin(0.9 * ratio * Math.PI);
+          },
+        },
+      });
+
+      root.add(document.getElementById("outside"), {
+        end: {
+          opacity: 1,
+        },
+        easing: {
+          opacity: function (ratio) {
+            return Math.sin(2.5 * ratio * Math.PI);
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
